@@ -15,10 +15,11 @@ HEIGHT CDATA #IMPLIED>
 <!ELEMENT STUDENT (PHOTO?, CONTENT) >
 <!ATTLIST STUDENT 
    ID	CDATA	#REQUIRED >
-<!ELEMENT PORTFOLIO (STUDENT+) >
+<!ELEMENT PORTFOLIO (STUDENT+, AUTOR?) >
 ]>
 <?xml-stylesheet href="https://greshnick007.github.io/css/lang.css" type="text/css"?>
 <PORTFOLIO>
+&AUTOR;
 		<STUDENT ID="1">
 			<PHOTO SRC="http://www.welcomespb.com/images/foto-rabota2big01.jpg" WIDTH="150px"></PHOTO>
 			<CONTENT>
@@ -79,5 +80,4 @@ HEIGHT CDATA #IMPLIED>
 			</HOBBY>
 			</CONTENT>
 		</STUDENT>
-		&AUTOR;
 	</PORTFOLIO>
