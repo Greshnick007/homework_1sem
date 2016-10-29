@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!DOCTYPE PORTFOLIO SYSTEM "DTD/lang.dtd" >
-<?xml-stylesheet href="http://localhost/lang/lang.css" type="text/css"?>
+<!DOCTYPE PORTFOLIO SYSTEM "https://greshnick007.github.io/dtd/lang.dtd" >
+<?xml-stylesheet href="https://greshnick007.github.io/css/lang.css" type="text/css"?>
 	<PORTFOLIO>
 		<STUDENT ID="1">
 			<PHOTO SRC="http://www.welcomespb.com/images/foto-rabota2big01.jpg" WIDTH="150px"></PHOTO>
