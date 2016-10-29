@@ -25,7 +25,7 @@ PHOTO {
 	border : 1px solid black;
 }
 
-NAME, DATE, EMAIL, PHONE, HOBBY {
+NAME, DATE, EMAIL, PHONE, HOBBY, INFO {
 	display : block;
 	padding : 0px 10px 10px 10px;
 }

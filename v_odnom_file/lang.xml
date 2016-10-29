@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE PORTFOLIO [
 <!ENTITY AUTOR "Stanislav Siviskiy" >
+<!ELEMENT INFO (#PCDATA) >
 <!ELEMENT NAME (#PCDATA) >
 <!ELEMENT PHOTO (#PCDATA) >
 <!ATTLIST PHOTO
@@ -11,18 +12,18 @@ HEIGHT CDATA #IMPLIED>
 <!ELEMENT EMAIL (#PCDATA) >
 <!ELEMENT PHONE (#PCDATA) >
 <!ELEMENT HOBBY (#PCDATA) >
-<!ELEMENT CONTENT (NAME, DATE?, EMAIL?, PHONE?, HOBBY?) >
+<!ELEMENT CONTENT (NAME, DATE?, EMAIL?, PHONE?, HOBBY?, INFO?) >
 <!ELEMENT STUDENT (PHOTO?, CONTENT) >
 <!ATTLIST STUDENT 
    ID	CDATA	#REQUIRED >
-<!ELEMENT PORTFOLIO (STUDENT+, AUTOR?) >
+<!ELEMENT PORTFOLIO (STUDENT+) >
 ]>
 <?xml-stylesheet href="https://greshnick007.github.io/css/lang.css" type="text/css"?>
 <PORTFOLIO>
-&AUTOR;
 		<STUDENT ID="1">
 			<PHOTO SRC="http://www.welcomespb.com/images/foto-rabota2big01.jpg" WIDTH="150px"></PHOTO>
 			<CONTENT>
+			<INFO>&AUTOR;</INFO>
 			<NAME>Вася Пупкин</NAME>
 			<DATE>00.00.0000</DATE>
 			<EMAIL>pupkin@mail.ru</EMAIL>
