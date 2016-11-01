@@ -1,21 +1,16 @@
-PORTFOLIO {
-	WIDTH : 80%;
-	margin : 0 auto;
-	display: block;
+.PORTFOLIO {
+	WIDTH : 80%; margin : 0 auto; display: block;
 }
 
-STUDENT {
-	display : flex;
-	justify-content : center;
-	margin : 0 auto 25px auto;
-	border : 1px solid black;
+.STUDENT {
+	display : flex; justify-content : center; margin : 0 auto 25px auto; border : 1px solid black; 
 }
 
-CONTENT {
+.CONTENT {
 	max-width : 500px;
 }
 
-PHOTO {
+.PHOTO {
 	background-position : center center;
 	background-size : contain;
     background-repeat : no-repeat;
@@ -25,7 +20,7 @@ PHOTO {
 	border : 1px solid black;
 }
 
-NAME, DATE, EMAIL, PHONE, HOBBY, INFO {
+.NAME, .DATE, .EMAIL, .PHONE, .HOBBY, .INFO {
 	display : block;
 	padding : 0px 10px 10px 10px;
 }

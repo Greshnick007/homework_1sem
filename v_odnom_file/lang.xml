@@ -18,7 +18,7 @@ HEIGHT CDATA #IMPLIED>
    ID	CDATA	#REQUIRED >
 <!ELEMENT PORTFOLIO (STUDENT+) >
 ]>
-<?xml-stylesheet href="https://greshnick007.github.io/css/lang.css" type="text/css"?>
+<?xml-stylesheet type="text/xsl" href="lang.xsl" ?>
 <PORTFOLIO>
 		<STUDENT ID="1">
 			<PHOTO SRC="http://www.welcomespb.com/images/foto-rabota2big01.jpg" WIDTH="150px"></PHOTO>
