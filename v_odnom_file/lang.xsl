@@ -3,7 +3,7 @@
      xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:output method="html"/> 
 <xsl:template match="/">
-<DIV class="WIDTH : 750px; margin : 0 auto; display: block;"><xsl:apply-templates /></DIV>
+<DIV class="WIDTH : 80%; margin : 0 auto; display: block;"><xsl:apply-templates /></DIV>
 </xsl:template>
 
 <xsl:template match="STUDENT">
@@ -17,7 +17,7 @@
 <xsl:variable name="url" select="@SRC" />
 <xsl:variable name="width" select="@WIDTH" />
 <xsl:variable name="height" select="@HEIGHT" />
-<img style="background-position : center center; background-size : contain; background-repeat : no-repeat; display: block; width : 150px; height : 150px;	border : 1px solid black;" SRC="{$url}" WIDTH="{@width}" HEIGHT="{@height}" />
+<img style="background-position : center center; background-size : contain; background-repeat : no-repeat; display: block; width : 150px; border : 1px solid black;" SRC="{$url}" WIDTH="{@width}" HEIGHT="{@height}" />
 </xsl:template>
 
 
