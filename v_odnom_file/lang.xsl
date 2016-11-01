@@ -17,7 +17,7 @@
 <xsl:variable name="url" select="@SRC" />
 <xsl:variable name="width" select="@WIDTH" />
 <xsl:variable name="height" select="@HEIGHT" />
-<img style="background-position : center center; background-size : contain; background-repeat : no-repeat; display: block; width : 150px; border : 1px solid black;" SRC="{$url}" WIDTH="{@width}" HEIGHT="{@height}" />
+<img style="margin : auto 0; display: block; width : 150px; height : 150px; border : 1px solid black;" SRC="{$url}" WIDTH="{@width}" HEIGHT="{@height}" />
 </xsl:template>
 
 
