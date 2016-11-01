@@ -21,7 +21,7 @@ HEIGHT CDATA #IMPLIED>
 <?xml-stylesheet type="text/xsl" href="lang.xsl" ?>
 <PORTFOLIO>
 		<STUDENT ID="1">
-			<PHOTO SRC="http://www.welcomespb.com/images/foto-rabota2big01.jpg" WIDTH="150px"></PHOTO>
+			<PHOTO SRC="http://www.acfe.com/uploadedImages/ACFE_Website/Content/images/membership-certification/graduate-member.jpg" WIDTH="150px"></PHOTO>
 			<CONTENT>
 			<INFO>&AUTOR;</INFO>
 			<NAME>Вася Пупкин</NAME>
